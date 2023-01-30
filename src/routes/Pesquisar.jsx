@@ -2,19 +2,21 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import filmesFetch from "./axios/config";
 import { motion } from "framer-motion"
 import Logo from "../imagens/logo.png"
 import "./Home.css";
+import axios from "axios";
 
+const Pesquisar = (props) => {
 
-const Home = () => {
 
     const [filmes, setFilmes] = useState([])
+    const urlAPI = "https://testeapi-xawn.onrender.com/pesquisar/filmesemCartaz?" + props.location.pesquisar
+    
 
     // Função sendo executada apenas quando o componente aparecer na tela
     useEffect(() => {
-        filmesFetch.get("/filmesemCartaz")
+        axios.get(urlAPI)
             .then((resposta) => {
                 setFilmes(resposta.data)
             })
@@ -39,12 +41,7 @@ const Home = () => {
                         <section>
                             <div className="catalogo">
                                 <img src={filmes.poster} alt="" />
-                                <h1>{filmes.titulo}</h1>
-                                <div className="btnLerMais">
-                                    <Link to={{ pathname: `/lermais/${filmes.id}` }}>
-                                        <button>Ler Mais</button>
-                                    </Link>
-                                </div>
+                                <h1>{buscar.titulo}</h1>
                             </div>
                         </section>
                     </div>
@@ -55,4 +52,4 @@ const Home = () => {
 
     )
 }
-export default Home
+export default Pesquisar

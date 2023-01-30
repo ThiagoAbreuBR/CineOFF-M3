@@ -2,7 +2,7 @@ import React from "react";
 import filmesFetch from "./axios/config";
 import { useForm } from "react-hook-form"
 import  {motion} from "framer-motion"
-import Teste from "../componentes/imagens/cinema.jpg"
+import Logo from "../imagens/logo.png"
 
 const NewPoster = () => {
 
@@ -23,8 +23,8 @@ const NewPoster = () => {
             exit = {{opacity:0}}
          >
             <section>
-            <div className="teste">
-                <img src={Teste} alt="" />
+            <div className="logo">
+                <img src={Logo} alt="" />
                 </div>
                 <div>
                     <h1>Adicione seus filmes</h1>

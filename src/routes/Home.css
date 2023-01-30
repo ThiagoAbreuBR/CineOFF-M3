@@ -11,7 +11,7 @@
 
 section img {
     width:15rem;
-    height:15rem;
+    height:20rem;
 }
 
 .btnLerMais {
@@ -22,10 +22,8 @@ section img {
     transform: translatez(+200px)
 }
 
-.teste img{
+.logo img{
     width:15rem;
     height:15rem;
-    align-items: center;
-    justify-content: center;
-    display:flex;
+    text-align: center;
 }
