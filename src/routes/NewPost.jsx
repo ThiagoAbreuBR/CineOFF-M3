@@ -1,6 +1,8 @@
 import React from "react";
 import filmesFetch from "./axios/config";
 import { useForm } from "react-hook-form"
+import  {motion} from "framer-motion"
+import Teste from "../componentes/imagens/cinema.jpg"
 
 const NewPoster = () => {
 
@@ -15,8 +17,15 @@ const NewPoster = () => {
 
 
     return (
-        <div>
+        < motion.div
+        initial = {{opacity:0}}
+            animate = {{opacity:1}}
+            exit = {{opacity:0}}
+         >
             <section>
+            <div className="teste">
+                <img src={Teste} alt="" />
+                </div>
                 <div>
                     <h1>Adicione seus filmes</h1>
                     <div></div>
@@ -36,7 +45,7 @@ const NewPoster = () => {
                             </div>
                             <div>
                                 <label htmlFor="">Digite a classificação</label>
-                                <input type="text" name="classificacao" {...register("classificacao")} />
+                                <input type="number" name="classificacao" {...register("classificacao")} />
                             </div>
                             <div>
                                 <label htmlFor="">Digite a url do poster</label>
@@ -50,7 +59,7 @@ const NewPoster = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </motion.div>
     )
 }
 

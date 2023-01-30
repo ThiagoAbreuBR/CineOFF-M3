@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import filmesFetch from "./axios/config";
+import  {motion} from "framer-motion"
+import Teste from "../componentes/imagens/cinema.jpg"
 import "./Home.css";
 
 
@@ -23,22 +25,34 @@ const Home = () => {
     }, [])
 
     return (
-        <div>   
+        <motion.div 
+            initial = {{opacity:0}}
+            animate = {{opacity:1}}
+            exit = {{opacity:0}}
+         >
+                <div className="teste">
+                <img src={Teste} alt="" />
+                </div>
             {filmes.map((filmes, key) => {
                 return (
                     <div>
                         <section>
-                        <h1>{filmes.titulo}</h1>
-                        <h1>{filmes.genero}</h1>
-                        <h1>{filmes.diretor}</h1>
-                        <h1>{filmes.classificacao}</h1>
-                        <img src={filmes.poster} alt=""/>
+                            <div className="catalogo">
+                                <img src={filmes.poster} alt="" />
+                                <h1>Título:{filmes.titulo}</h1>
+                                <div className="btnLerMais">
+                                    <button>Ler mais</button>
+                                </div>
+                                <h1>Gênero:{filmes.genero}</h1>
+                                <h1>Diretor:{filmes.diretor}</h1>
+                                <h1>Classificação:{filmes.classificacao}</h1>
+                            </div>
                         </section>
                     </div>
 
                 )
             })}
-        </div>
+        </ motion.div>
 
     )
 }
