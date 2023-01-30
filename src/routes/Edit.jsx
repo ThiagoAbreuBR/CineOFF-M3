@@ -3,8 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import filmesFetch from "./axios/config";
-import { useForm } from "react-hook-form"
-import "./Home.css";
+import "./Edit.css";
 
 
 const Edit = () => {
@@ -30,23 +29,21 @@ const Edit = () => {
     }
 
     return (
-        <div>
+        <div className="container">
             {filmes.map((filmes, key) => {
                 return (
-                    <div>
+                    <div className="catalogo">
                         <section>
                             <h1>{filmes.titulo}</h1>
-                            <h1>{filmes.genero}</h1>
-                            <h1>{filmes.diretor}</h1>
-                            <h1>{filmes.classificacao}</h1>
                             <img src={filmes.poster} alt="" />
-                        </section>
+                    
                         <div>
-                            <Link to={{ pathname: `/editreal/${filmes.id}`}}>
-                                <button>Editar</button>
+                            <Link to={{ pathname: `/editfilme/${filmes.id}`}}>
+                                <button className="atualizar">Atualize informações</button>
                             </Link>
-                            <button onClick={()=> apagarFilmes(filmes.id)}>Deletar</button>
+                            <button className="deletar" onClick={()=> apagarFilmes(filmes.id)}>Excluir</button>
                         </div>
+                        </section>
                     </div>
 
                 )

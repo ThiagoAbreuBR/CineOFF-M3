@@ -1,0 +1,78 @@
+.catalogo {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    float: left;
+    margin-top:1rem;
+
+}
+
+.atualizar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .625rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.atualizar:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.deletar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .625rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    transition: 0.5s;
+}
+.deletar:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+button{
+    text-decoration-style: none;
+    width: 16.25rem;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding: .3125rem;
+    border-radius: .625rem;
+}
+
+h1{
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20.5rem;
+    height: 24.25rem;
+    opacity: 60%;
+    transition: 0.5s;
+  }
+  img:hover{
+  box-shadow: 5px 5px 10px #000000;
+    opacity: 100%;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+    
+  }
+  
+  

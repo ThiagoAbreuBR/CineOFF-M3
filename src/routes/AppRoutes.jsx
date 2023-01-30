@@ -1,15 +1,15 @@
 import React from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 
 // Páginas
 import Home from './Home';
-import NewPoster from './NewPost';
+import NewFilme from './NewFilme';
 import Edit from './Edit';
-import EditReal from './EditReal';
-import LerMais from './LerMais';
-import Pesquisar from './Pesquisar'
+import EditFilme from './EditFilme';
+import Detalhes from './Detalhes';
+import Buscar from './Buscar';
 
-import { AnimatePresence } from 'framer-motion';
 
 function AppRoutes() { 
 
@@ -18,11 +18,11 @@ function AppRoutes() {
         <AnimatePresence mode='wait'>
             <Routes location={location} key={location.pathname}>
                 <Route path='/' exact element= {<Home/>} />
-                <Route path='/lermais/:id' exact element= {<LerMais/>} />
-                <Route path='/new' exact element= {<NewPoster/>} />
+                <Route path='/detalhes/:id' exact element= {<Detalhes/>} />
+                <Route path='/newfilme' exact element= {<NewFilme/>} />
                 <Route path='/edit' exact element= {<Edit/>} />
-                <Route path='/editreal/:id' exact element= {<EditReal/>} />
-                <Route path='/pesquisar' exact element= {<Pesquisar/>} />
+                <Route path='/editfilme/:id' exact element= {<EditFilme/>} />
+                <Route path='/buscar' exact element= {<Buscar/>} />
             </Routes>
         </AnimatePresence>
     )
