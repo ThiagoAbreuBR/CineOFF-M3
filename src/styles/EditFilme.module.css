@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.editFilm {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+
+.logoAnimated {
+    text-align: center;
+}
+
+.logoAnimated img {
+    text-align: center;
+    width: 10rem;
+}
+
+.editInput {
+    display: flex;
+    justify-content: center;
+    margin-top:1.4rem;
+}
+
+.formInput {
+    width: 75%;
+    box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    border-radius: 15px;
+    background: #333333;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.film {
+    margin: 1.4rem;
+    text-align: center;
+}
+
+.tituloATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.tituloATT:hover {
+    border-radius: 10px 10px;
+}
+
+.tituloATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.sinopseATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+textarea {
+    font-family: 'Rajdhani';
+}
+
+.sinopseATT:focus {
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    padding: 2rem;
+    border-radius: 10px 10px;
+}
+
+.sinopseATT:hover {
+    border-radius: 10px 10px;
+}
+
+.diretorATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.diretorATT:hover {
+    border-radius: 10px 10px;
+}
+
+.diretorATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.generoATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.generoATT:hover {
+    border-radius: 10px 10px;
+}
+
+.generoATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.classificacaoATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.classificacaoATT:hover {
+    border-radius: 10px 10px;
+}
+
+.classificacaoATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.duracaoATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.duracaoATT:hover {
+    border-radius: 10px 10px;
+}
+
+.duracaoATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.anoATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.anoATT:hover {
+    border-radius: 10px 10px;
+}
+
+.anoATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.posterATT {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.posterATT:hover {
+    border-radius: 10px 10px;
+}
+
+.posterATT:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.enviarFilm {
+    width: 25%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.enviarFilm:hover {
+    width: 50%;
+    border-radius: 10px 10px;
+    padding: 0.5rem;
+}
+
+.enviarFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+}
+
+.error {
+    margin-top: 1rem;
+    color: #FF0000;
+}

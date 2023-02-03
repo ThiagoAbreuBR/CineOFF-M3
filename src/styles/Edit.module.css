@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filmesEdit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 7rem;
+}
+
+.logoAnimated {
+    text-align: center;
+}
+
+.logoAnimated img {
+    width: 10rem;
+}
+
+.filmesEdit .card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    background: #444444;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 1);
+}
+
+.content img {
+    width: 260px;
+    height: 390px;
+    border-radius: 1rem 1rem;
+    transition: 0.5s;
+}
+
+.filmesEdit .card .content h1 {
+    font-size: 14px;
+    margin-top: 1.4rem;
+}
+
+
+.filmesEdit .card .content {
+    text-align: center;
+    transform: translateY(167px);
+    opacity: 1;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.filmesEdit .card:hover .content {
+    transform: translateY(-200px);
+    opacity: 1;
+}
+
+.card .atualizar {
+    width: 75%;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+    cursor: pointer;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: transparent;
+    border-radius: 0.5rem 0.5rem;
+    transition: 1s;
+}
+
+.card .deletar {
+    width: 75%;
+    font-size: 1.4rem;
+    margin-top: 14px;
+    cursor: pointer;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: transparent;
+    border-radius: 0.5rem 0.5rem;
+    transition: 1s;
+}
+
+.card .atualizar:hover {
+    width: 100%;
+    background-color: #FFFF00;
+    padding: 0.5rem 0.5rem;
+    color: #000000;
+}
+
+.card .deletar:hover {
+    width: 100%;
+    background-color: #FF0000;
+    padding: 0.5rem 0.5rem;
+    color: #000000;
+}

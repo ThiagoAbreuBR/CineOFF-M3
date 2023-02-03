@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dadosFilmes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.logoAnimated {
+    text-align: center;
+    margin-top:7rem;
+}
+
+.logoAnimated img {
+    text-align: center;
+    width: 10rem;
+}
+
+.poster {
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+.poster img {
+    width: 360px;
+    height: 420px;
+    border-radius: 0.5rem 0.5rem;
+    box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.3);
+}
+
+.filmeInfo {
+    width: 65%;
+    float: left;
+}
+
+.filmeInfo h1,h2 {
+    font-size: 1.7rem;
+    margin-top:0.5rem;
+    color:#FFFFFF;
+}
+
+.filmeInfo h3 {
+    font-size: 1.7rem;
+    margin-top:0.5rem;
+    color:#FFFF00;
+}
+
+.filmeInfo h4 {
+    font-size: 1.7rem;
+    margin-top:0.5rem;
+    color:#FFFF00;
+    text-align: center;
+}
+
+.filmeInfo h5 {
+    font-size: 1.7rem;
+    margin-top:0.5rem;
+    color:#FFFF00;
+    text-align: center;
+}
+
+.filmeInfo .infoGenre {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    border-radius: 0.3rem 0.3rem;
+    border-color: transparent;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.filmeInfo .infoDuraction {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    border-radius: 0.3rem 0.3rem;
+    border-color: transparent;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.filmeInfo .infoYear {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    border-radius: 0.3rem 0.3rem;
+    margin: 0.5rem;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.filmeInfo .infoClassication {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    border-radius: 0.3rem 0.3rem;
+    border-color: transparent;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.filmeInfo .infoGenre:hover {
+    color: #FFFF00;
+}
+
+.filmeInfo .infoDuraction:hover {
+    color: #FFFF00;
+}
+
+.filmeInfo .infoYear:hover {
+    color: #FFFF00;
+}
+
+.filmeInfo .infoClassication:hover {
+    color: #FFFF00;
+}
+
+@media(min-width:280px) and (max-width:1024px){
+    .poster { 
+       width:100%;
+    }
+}
+@media(min-width:280px) and (max-width:1024px){
+    .filmeInfo { 
+       width:100%;
+       text-align: center;
+    }
+}

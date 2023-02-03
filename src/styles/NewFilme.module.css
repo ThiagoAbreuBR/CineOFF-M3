@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.addFilm {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.logoAnimated {
+    text-align: center;
+}
+
+.logoAnimated img {
+    text-align: center;
+    width: 10rem;
+}
+
+.newInput {
+    display: flex;
+    justify-content: center;
+    margin-top:1.4rem;
+}
+
+.formInput {
+    width: 75%;
+    box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    border-radius: 15px;
+    background: #333333;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.film {
+    margin: 1.4rem;
+    text-align: center;
+}
+
+.tituloFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.tituloFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.tituloFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.sinopseFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+textarea {
+    font-family: 'Rajdhani';
+}
+
+.sinopseFilm:focus {
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    padding: 2rem;
+    border-radius: 10px 10px;
+}
+
+.sinopseFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.diretorFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.diretorFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.diretorFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.generoFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.generoFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.generoFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.classificacaoFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.classificacaoFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.classificacaoFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.duracaoFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.duracaoFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.duracaoFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.anoFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.anoFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.anoFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+}
+
+.posterFilm {
+    width: 75%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.posterFilm:hover {
+    border-radius: 10px 10px;
+}
+
+.posterFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.enviarFilm {
+    width: 25%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.enviarFilm:hover {
+    width: 50%;
+    border-radius: 10px 10px;
+    padding: 0.5rem;
+}
+
+.enviarFilm:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+}
+
+.error {
+    margin-top: 1rem;
+    color: #FF0000;
+}
+
+@media(min-width:280px) and (max-width:1024px){
+    .formInput { 
+       width:100%;
+    }
+}
