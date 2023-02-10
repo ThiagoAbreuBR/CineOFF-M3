@@ -37,3 +37,11 @@ $ npm run dev
 
 ## Abra o projeto no navegador acessando pela porta local:
 http://localhost:5173/
+
+## Integrantes do Grupo
+
+- **Thiago Abreu**
+- **Fernanda Camargo**
+- **Lucas Bento**
+- **Thalyta Cunha**
+- **Lorrany de Oliveira**
