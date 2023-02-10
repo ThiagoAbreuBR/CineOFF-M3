@@ -11,7 +11,7 @@ https://github.com/ThiagoAbreuBR/CineOFF-GET-POST-PUT-DELETE
 ```sh
 $ git clone https://github.com/ThiagoAbreuBR/CineOFF-M3.git
 ```
-## Dentro da pasta do projeto, instale as biblioteca:
+## Dentro da pasta do projeto, instale as bibliotecas:
 
 ```sh
 $ npm install
