@@ -4,10 +4,10 @@ Projeto em grupo do módulo 3 cujo o objetivo era criar um site usando json.serv
 
 ## Tecnologias Utilizadas
 
--- **HTML**
--- **CSS**
--- **JS**
--- **REACT**
+- **HTML**
+- **CSS**
+- **JS**
+- **REACT**
 
 
 Acesso ao projeto online [aqui](https://cineoff.netlify.app/).
