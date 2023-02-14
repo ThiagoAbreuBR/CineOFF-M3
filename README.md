@@ -2,17 +2,17 @@
 
 # Projeto em grupo do módulo 3(Sendo servido).
 
-# Objetivo
+- **Objetivo **
 
-# Site criado deve realizar todos métodos HTTP
+- **Site criado deve realizar todos métodos HTTP**
 
-#GET - Página para listar os cadastros ou produtos com opção de busca.
+- **GET - Página para listar os cadastros ou produtos com opção de busca**
 
-#POST - Página para incluir um novo registro ou produto.
+- **POST - Página para incluir um novo registro ou produto**
 
-#PUT - Página para editar os cadastros ou produtos.
+- **PUT - Página para editar os cadastros ou produtos**
 
-# DELETE - Opção de excluir itens cadastrados.
+- **DELETE - Opção de excluir itens cadastrados**
 
 ## Tecnologias Utilizadas
 
@@ -20,7 +20,6 @@
 - **CSS**
 - **JS**
 - **REACT**
-
 
 Acesso ao projeto online [aqui](https://cineoff.netlify.app/).
 
