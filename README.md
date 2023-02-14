@@ -1,6 +1,6 @@
 # CineOFF-M3
 
-Projeto em grupo do módulo 3 cujo o objetivo era criar um site usando json.server com os elementos: GET,POST,PUT e DELETE.
+Projeto em grupo do módulo 3 cujo o objetivo era criar um site usando json.server com os elementos: GET- Página para listar os  cadastros ou produtos com  opção de busca; POST- Página para incluir um  novo registro ou produto; PUT- Página para editar os  cadastros ou produtos; DELETE- Opção de excluir itens cadastrados.
 
 ## Tecnologias Utilizadas
 
