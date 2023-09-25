@@ -38,7 +38,6 @@ $ git clone https://github.com/ThiagoAbreuBR/CineOFF-M3.git
 
 ```sh
 $ npm install
-$ npm install axios
 ```
 ## Execute o projeto:
 
